@@ -10,7 +10,7 @@ import {
 import App from './src/app.js'
 
 
-AppRegistry.registerComponent('AwesomeProject', () => App)
+AppRegistry.registerComponent('JzbReactNativeApp', () => App)
 
 // /**
 //  * Sample React Native App

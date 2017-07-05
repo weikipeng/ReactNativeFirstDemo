@@ -1,3 +1,44 @@
+> com.android.build.api.transform.TransformException: java.util.zip.ZipException: duplicate entry: okhttp3/internal/ws/RealWebSocket$1.class
+
+
+07-05 15:55:54.166 11022-11281/com.eduu.bang E/ACRA: ACRA caught a RuntimeException for com.eduu.bang
+                                                     java.lang.RuntimeException: An error occured while executing doInBackground()
+                                                         at android.os.AsyncTask$3.done(AsyncTask.java:300)
+                                                         at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+                                                         at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+                                                         at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+                                                         at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+                                                         at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                         at java.lang.Thread.run(Thread.java:818)
+                                                      Caused by: java.lang.NoClassDefFoundError: com.facebook.react.packagerconnection.ReconnectingWebSocket
+                                                         at com.facebook.react.packagerconnection.JSPackagerClient.<init>(JSPackagerClient.java:79)
+                                                         at com.facebook.react.devsupport.DevServerHelper$1.doInBackground(DevServerHelper.java:173)
+                                                         at com.facebook.react.devsupport.DevServerHelper$1.doInBackground(DevServerHelper.java:146)
+                                                         at android.os.AsyncTask$2.call(AsyncTask.java:288)
+                                                         at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+                                                         at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112) 
+                                                         at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587) 
+                                                         at java.lang.Thread.run(Thread.java:818) 
+
+
+                                                     [ 07-05 15:55:54.171 11022:11201 E/         ]
+                                                     [android_ws] Format: 5, Width: 1080, Height: 1920
+
+
+                                                     [ 07-05 15:55:54.171 11022:11201 E/         ]
+                                                     [android_ws] Format: 5, Width: 1080, Height: 1920
+
+
+                                                     [ 07-05 15:55:54.171 11022:11201 E/         ]
+                                                     [android_ws] Format: 5, Width: 1080, Height: 1920
+07-05 15:55:54.176 11022-11286/com.eduu.bang E/ACRA: ACRA caught a RuntimeException for com.eduu.bang
+
+------
+
+
+git remote add origin https://github.com/weikipeng/ReactNativeFirstDemo.git
+git push -u origin master
+
 Navigator is deprecated and has been removed from this package. It can now be installed and imported from `react-native-deprecated-custom-components` instead of `react-native`. Learn about alternative navigation solutions at http://facebook.github.io/react-native/docs/navigation.html
 
 
@@ -5,7 +46,7 @@ Warning:Using incompatible plugins for the annotation processing: android-apt. T
 Error:Conflict with dependency 'com.google.code.findbugs:jsr305' in project ':app'. Resolved versions for app (3.0.0) and test app (2.0.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.
 Error:Module 'com.facebook.stetho:stetho-okhttp:1.2.0' depends on one or more Android Libraries but is a jar
 
-
+https://m-dev.jzb.com/user/version/down?id=11
 
 Resolving conflicts between main and test APK
 
