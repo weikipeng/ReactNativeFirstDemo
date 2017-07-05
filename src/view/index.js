@@ -5,10 +5,12 @@ import {
   Text,
   Image,
   View,
-  Navigator,
+
   NativeModules,
   TouchableHighlight
 } from 'react-native'
+
+import {Navigator} from 'react-native-deprecated-custom-components'
 
 import Timer from './../components/timer'
 import Day from './../components/day'
@@ -33,12 +35,12 @@ export default class Forum extends Component {
   }
 
   componentWillMount () {
-    NativeModules.RNBridgeModule.getOauthToken((events) => {
-      this.setState({
-        tokenTxt: events
-      })
-      console.log(events)
-    })
+    // NativeModules.RNBridgeModule.getOauthToken((events) => {
+    //   this.setState({
+    //     tokenTxt: events
+    //   })
+    //   console.log(events)
+    // })
   }
 
   componentDidMount () {
@@ -94,7 +96,7 @@ export default class Forum extends Component {
               </View>
             </View>
             <Text style={{fontSize: 14, lineHeight: 25, color: '#fff'}}>元宝: {this.state.total_score}</Text>
-          </View>  
+          </View>
         </Image>
         {(() => {
           if (this.state.listShow) {

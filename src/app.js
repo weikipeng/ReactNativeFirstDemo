@@ -3,15 +3,15 @@
  * https://github.com/facebook/react-native
  *
  *
- * - Navigator.SceneConfigs.PushFromRight (默认) 
- * - Navigator.SceneConfigs.FloatFromRight 
- * - Navigator.SceneConfigs.FloatFromLeft 
- * - Navigator.SceneConfigs.FloatFromBottom 
- * - Navigator.SceneConfigs.FloatFromBottomAndroid 
- * - Navigator.SceneConfigs.FadeAndroid 
- * - Navigator.SceneConfigs.HorizontalSwipeJump 
- * - Navigator.SceneConfigs.HorizontalSwipeJumpFromRight 
- * - Navigator.SceneConfigs.VerticalUpSwipeJump 
+ * - Navigator.SceneConfigs.PushFromRight (默认)
+ * - Navigator.SceneConfigs.FloatFromRight
+ * - Navigator.SceneConfigs.FloatFromLeft
+ * - Navigator.SceneConfigs.FloatFromBottom
+ * - Navigator.SceneConfigs.FloatFromBottomAndroid
+ * - Navigator.SceneConfigs.FadeAndroid
+ * - Navigator.SceneConfigs.HorizontalSwipeJump
+ * - Navigator.SceneConfigs.HorizontalSwipeJumpFromRight
+ * - Navigator.SceneConfigs.VerticalUpSwipeJump
  * - Navigator.SceneConfigs.VerticalDownSwipeJump
  */
 'use strict'
@@ -21,9 +21,11 @@ import {
   StyleSheet,
   Text,
   View,
-  Navigator,
+  
   TouchableOpacity
 } from 'react-native'
+
+import {Navigator} from 'react-native-deprecated-custom-components'
 
 import IndexPage from './view/index'
 import ListPage from './view/list'

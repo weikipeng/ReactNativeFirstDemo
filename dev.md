@@ -1,3 +1,6 @@
+Navigator is deprecated and has been removed from this package. It can now be installed and imported from `react-native-deprecated-custom-components` instead of `react-native`. Learn about alternative navigation solutions at http://facebook.github.io/react-native/docs/navigation.html
+
+
 Warning:Using incompatible plugins for the annotation processing: android-apt. This may result in an unexpected behavior.
 Error:Conflict with dependency 'com.google.code.findbugs:jsr305' in project ':app'. Resolved versions for app (3.0.0) and test app (2.0.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.
 Error:Module 'com.facebook.stetho:stetho-okhttp:1.2.0' depends on one or more Android Libraries but is a jar

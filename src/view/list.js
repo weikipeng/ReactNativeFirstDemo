@@ -4,9 +4,10 @@ import {
   StyleSheet,
   Text,
   Image,
-  View,
-  Navigator
-} from 'react-native'
+  View
+  } from 'react-native'
+
+import {Navigator} from 'react-native-deprecated-custom-components'
 
 import Dimensions from 'Dimensions'
 const {width, height} = Dimensions.get('window')
