@@ -1,3 +1,5 @@
+No implementation found for com.facebook.react.bridge.Inspector com.facebook.react.bridge.Inspector.instance() (tried Java_com_facebook_react_bridge_Inspector_instance and Java_com_facebook_react_bridge_Inspector_instance__)
+
 > com.android.build.api.transform.TransformException: java.util.zip.ZipException: duplicate entry: okhttp3/internal/ws/RealWebSocket$1.class
 
 
